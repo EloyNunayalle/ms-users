@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Archivos de configuración 
+
+.env
+*.env
+*.secret
+*.key
+
+# Logs y temporales
+
+*.log
+*.pot
+*.pyc
+*.pkl
+*.sqlite3
+*.db
+*.tmp
+*.swp
+*.swo
+
+# VSCode
+.vscode/
+.history/
+
+
+# Docker
+# Archivos generados por contenedores
+*.pid
+*.seed
+*.pid.lock
+
+# Volúmenes / datos persistentes
+docker-data/
+docker-compose.override.yml
+
+
+# Otros
+.idea/
+__MACOSX
+.DS_Store
+Thumbs.db
